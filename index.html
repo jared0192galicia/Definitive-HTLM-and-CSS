@@ -3,20 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Descripcion del sitio web">
+    <meta name="description" content="Descripcion cagada">
+    <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videos</title>
+    <title>Formularios</title>
 </head>
 <body>
     <header></header>
-
+    
     <main>
         <section>
-            <video controls preload="auto"> 
-            <!-- añadir source como etiqueta adicional permite usar diferenes formatos para que el navegador use el mas compatible -->
-                <source src="./videos/iPad_Matte.mov"> <!--Chrome no admite archivos .mov, por lo tanto reproduce el mp4 --> 
-                <source src="./videos/Library - 846.mp4">
-            </video>
+            <!-- Usado para formularios -->
+            <form action="">
+                <label for="nombre">
+                    <!-- span indica que poner en el input -->
+                    <span>Nombre </span>
+                    <input type="text" id="nombre" placeholder="Name" required>
+                </label>
+                <label for="Apellidos">
+                    <!-- span indica que poner en el input -->
+                    <span>Apellidos</span>
+                    <input type="text" id="Apellidos" placeholder="Apellidos">
+                </label>
+                <label for="Fecha de nacimiento">
+                    <!-- span indica que poner en el input -->
+                    <span>Fecha de nacimiento</span>
+                    <input type="date" id="fecha">
+                </label>
+                <label for="hora">
+                    <span>A que hora</span>
+                    <input type="time" id="hora">
+                </label>
+            </form>
         </section>
     </main>
 
