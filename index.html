@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Descripcion del sitio web">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>figure etiqueta</title>
+    <title>Videos</title>
 </head>
 <body>
     <header></header>
+
     <main>
         <section>
-            <figure>
-                <img
-                    src="https://as01.epimg.net/diarioas/imagenes/2022/04/20/actualidad/1650466413_240889_1650466661_noticia_normal.jpg" 
-                    alt="Foto de un Harry"
-                >
-                <figcaption>\t Descripcion que ayuda musho :) 🐈</figcaption>
-            </figure>
+            <video controls preload="auto"> 
+            <!-- añadir source como etiqueta adicional permite usar diferenes formatos para que el navegador use el mas compatible -->
+                <source src="./videos/iPad_Matte.mov"> <!--Chrome no admite archivos .mov, por lo tanto reproduce el mp4 --> 
+                <source src="./videos/Library - 846.mp4">
+            </video>
         </section>
     </main>
-    <footer> <p>Porque </p></footer>
+
+    <footer></footer>
 </body>
 </html>
