@@ -1,0 +1,59 @@
+html {
+    font-size: 62.5%;
+}
+*{
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    /* padding-bottom: 10vh; */
+    background-color: darkcyan;
+}
+.logo {
+    font-size: 2.2rem;
+}
+nav {
+    display: inline-block;
+    /* padding-right: 0; */
+    padding-left: 55%;
+    padding-bottom: 6vh;
+    padding-top: 4vh;
+}
+.item {
+    display: inline-block;
+    padding-right: 5rem;
+    font-size: 2rem;
+}
+main {
+    background-color: darkgoldenrod;
+}
+.pestanas {
+    display: inline-block;
+    background-color: deeppink;
+    width: 25%;
+    max-height: 200rem;
+    border-radius: 2px;
+    border-color: aquamarine;
+}
+.artic {
+    position: relative;
+    display: block;
+    background-color: black;
+    width: 100px;
+    margin: 5%;
+    max-width: 90%;
+    padding: 40% 45%;
+}
+section p {
+    display: inline-block;
+    position: absolute;
+    left: 27%;
+    top: 20vh;
+}
+footer {
+    background-color: slateblue;
+    padding: 5vh 10vh;
+    text-align: center;
+}
